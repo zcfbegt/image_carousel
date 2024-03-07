@@ -1,0 +1,27 @@
+.carousel {
+    text-align: center; /* Centers the content */
+    position: relative; /* Make the carousel container a positioned parent for buttons */
+}
+
+.image-container {
+    display: none; /* Hide images initially */
+}
+
+.active {
+    display: block; /* Show active image */
+}
+
+#prevBtn, #nextBtn {
+    margin: 5px;
+    padding: 10px;
+    position: absolute; /* Position buttons */
+}
+
+#prevBtn {
+    left: 0; /* Position previous button to the left */
+}
+
+#nextBtn {
+    right: 0; /* Position next button to the right */
+}
+
